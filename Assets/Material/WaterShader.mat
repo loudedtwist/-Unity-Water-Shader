@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WaterShader
+  m_Shader: {fileID: 4800000, guid: 69b84d45ac5bf4da9ac89ca9a7f48864, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION _PARALLAXMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+    _SUNDISK_HIGH_QUALITY
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DispTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 0ba1e302935c047e292fbe52c99a358c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ShoreTex
+      second:
+        m_Texture: {fileID: 2800000, guid: b1d7fee26e54cc3498f6267f072a45b9, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 5, y: 5}
+    - first:
+        name: _SpecGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AtmosphereThickness
+      second: 1
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _Displacement
+      second: 0
+    - first:
+        name: _DstBlend
+      second: 10
+    - first:
+        name: _EdgeLength
+      second: 2
+    - first:
+        name: _Exposure
+      second: 1.3
+    - first:
+        name: _GlossMapScale
+      second: 0.88
+    - first:
+        name: _Glossiness
+      second: 0.38
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0.41
+    - first:
+        name: _Mode
+      second: 2
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.005
+    - first:
+        name: _Phong
+      second: 0
+    - first:
+        name: _Shininess
+      second: 1.8
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 1
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 5
+    - first:
+        name: _SunDisk
+      second: 2
+    - first:
+        name: _SunSize
+      second: 0.04
+    - first:
+        name: _Tess
+      second: 4
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 0
+    - first:
+        name: _isInnerAlphaBlendOrColor
+      second: 0
+    m_Colors:
+    - first:
+        name: _BaseColor
+      second: {r: 0.13948962, g: 0.28952402, b: 0.44117647, a: 0.5}
+    - first:
+        name: _BumpDirection
+      second: {r: 45, g: 30, b: 30, a: -50}
+    - first:
+        name: _BumpTiling
+      second: {r: 0.01, g: 0.01, b: 0.01, a: 0.02}
+    - first:
+        name: _Color
+      second: {r: 0.13725491, g: 0.3019608, b: 0.4431373, a: 1}
+    - first:
+        name: _ColorEnd
+      second: {r: 0.89705884, g: 0.7123703, b: 0.7123703, a: 0}
+    - first:
+        name: _ColorStart
+      second: {r: 0.029411793, g: 0.5582149, b: 1, a: 0}
+    - first:
+        name: _Dir
+      second: {r: 42.3, g: 12.7, b: 10.21, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Foam
+      second: {r: 1, g: 2.5, b: 0, a: 0}
+    - first:
+        name: _GroundColor
+      second: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+    - first:
+        name: _InvFadeParemeter
+      second: {r: 6.89, g: 0.06, b: 27.39, a: 9.18}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _SkyTint
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.83823526, g: 0.83823526, b: 0.83823526, a: 1}
